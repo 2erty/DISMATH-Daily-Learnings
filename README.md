@@ -24,21 +24,32 @@ There are always two sets of variables (let them be x and y) in a statement or a
     If x implies y (conditional), if x is false: statement is true; if both are true: statement is true. 
     If y if and only if x (biconditional), if both are true or false: statement is true.
 
+
 DISMATH CLASSES Week 2
+
 Let variables be m, n & o.
 
 Logical Equivalences:
 1) Identity Laws: m or/and F/T is m
+
 2) Domination Laws: m or/and T/F is T/F
+
 3) Negation Laws: m or/and (not m) is T/F
+
 4) Double Negation Law: not (not m) is m
+
 5) Idempotent Laws: m or/and m is m
+
 6) Commutative Laws: m or/and n is n or/and m
+
 7) Associative Laws: (m or/and m) or/and o is
    m or/and (n or/and o)
+   
 8) Distributive Laws: p or/and (n or/and o) is
   (m or/and n) and/or (m or/and o)
+  
 9) De Morgan's Laws: not (m and/or n) is (not m) or/and (not n)
+
 10) Absorption Laws: p or/and (m and/or n) is m
 
 The 10 logical equivalences listed down above and the concepts of truth table can be used to do proof, much like you can use trigonometric identities to do proof.
@@ -63,18 +74,27 @@ Rules of Inference
 Let variables be a, b, & c.
 8 Rules of Inference
 1) Modus Ponens: a. a implies b, therfore b.
+
 2) Modus Tollens: not b. a implies b, therfore not p.
+
 3) Hypothetical Syllogism: a implies b. b implies c, therefore a implies c.
+
 4) Disjunction Syllogism: Either a or b. Not a, therefore b.
+
 5) Addition: a, therefore a or b.
+
 6) Simplification: a and b, therefore a.
+
 7) Conjunction: a. b, therefore a and b.
+
 8) Resolution: Either a or b. Either not a or c, therefore b or c.
 
 The eight above are will all make tautologies - completely valid arguments. Just put clauses or mathematicals statements in place of the variables, and you can make any valid argument.
 
+
 DISMATH CLASSES Week 3
-Proof
+
+Proof:
 There are 5 main methods that we can use to do mathematical proof.
 
 Direct Proof
@@ -92,7 +112,9 @@ Method: We just need to disproove p to proove the whole statement, since as long
 Trivial Proof
 Method: Very related to vacuous proof, we just need to proove q to be true, since as long as q is true, the statement is true.
 
+
 DISMATH CLASSES Week 4
+
 Proof by Equivalence
 Method: If the statement is biconditional, we proove using definitions of p and q that p implying q and q implying p are both true. We can use any method previously learned to proove the two conditional statements separately.
 
