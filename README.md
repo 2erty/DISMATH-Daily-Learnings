@@ -124,37 +124,111 @@ Method: Usually, this method deals with series (arithmetic and geometric). It is
 DISMATH CLASSES Week 5
 Recursive Algorithms
 Method: When given a set of values - Two steps:
-        1) A value will be specified as 0.
-        2) As if in a sequence, what rule would you make that would define the sequence given?
+        1) A value will be specified as 0;
+        2) As if in a sequence, what rule would you make that would define the sequence given?;
 
 Program correctness
-We use algorithms to test if a certain program is error-free or not; test if it is giving correct output. 
+We use algorithms to test if a certain program is error-free or not; test if it is giving correct output; 
 We verify a program with 2 ways:
-1. Show that correct answer is obtained when the program runs.
-2. Show if the program terminates or not.
+1. Show that correct answer is obtained when the program runs;
+2. Show if the program terminates or not;
 
 Sets:
--Finite list of numbers
--Similar operators as connectives and rule under the same equivalences. 
-    -Negation = prime
-    -Conjunction = intersection
-    -Disjunction = union
-    -Additional equivalence: Complement Laws: A Union/Intersection B = U/0
--Relationships can be well visualised using venn diagrams, where the common region is the intersection
--Sets can be empty (null)
--Set builder notation: {x|Definition of x}
--
+-Finite list of numbers;
+Similar operators as connectives and rule under the same equivalences. ;
+    Negation = prime;
+    Conjunction = intersection;
+    Disjunction = union;
+    Additional equivalence: Complement Laws: A Union/Intersection B = U/0;
+Relationships can be well visualised using venn diagrams, where the common region is the intersection;
+Sets can be empty (null);
+Set builder notation: {x|Definition of x};
+Part of a set = subset; Union of 2 sets = sum of sets minus their intersection; Intersection of 2 sets = sum of sets minus exclusive values per set;
+Set Cardinality = number of elements in set;
 
-    
+Functions: 
+Exclusive relationship between 2 numbers A to B;
+A is domain; B is Codomain; Set of all elements where A exists is Range;
 
+3 Function types:
+One-to-One = All elements in A has exclusively one B each;
+Onto = several elements in A have 1 element B;
+One-to-One Correspondence = Combination of One-to-One concept and Onto concept;
 
+Discrete Function Example: Greatest integer; Least integer function
 
+DISMATH CLASSES Week 6:
+Algorithms:
 
+Steps on making any Algorithm:
+1) Determine the domain and desired output of the Algorithm (the preconditions);
+2) Make the pseudocode of the algorithm (patterned much after C programming language)
 
+Basic Examples of Algorithms:
+Search (Binary & linear);
+-Binary search is faster than linear. Linear goes through the list one by one. Binary searches the list by halfing.
 
+DISMATH CLASSES Week 7:
+More Algorithm Examples
+Sorting (Insertion & Bubble);
+Bubble Sort Pseudocode:
+Precondition: {a1,...,an = real numbers};
+    for i=1 to n-1
+        for j=1+n{
+        if aj>aj+i, 
+    interchange}
+Output {ai...an in increasing order}
 
+Insertion Sort Pseudocode:
+Precondition: (a1,...,an = real numbers);
+    for i=1
+    while aj>ai
+        i=i+1;
+        m=aj;
+    for k=0 to j-i-1{
+    aj-k=aj-k-i-1
+        ai=m;}
+    Output {ai...an in increasing order}
 
+Growth functions:
+3 types:
+1. Big-O function;
+    When x is 0y, y is the upper boundary of x;
+2. Big-Omega function;
+    When x is OMEGAy, y is the lower boundary of x;
+3. Big-Theta function;
+    When x is THETAy, y is both upper the boundary and lower boundary;
 
+DISMATH CLASSES Week 8:
+Graph Theory:
 
+A graph is a finite set of vertices with lines called edges connecting edges in several many possible ways.
+A degree is the number of connections to a vertex. If a vertex were an intersection, the degree would be the number of possible entry and exit ways to it. A vertex with a degree 0 is isolated. A pendant is a degree 1 vertex (as if hanging).
 
+Handshaking theorem: Twice the edges is equivalent to the product of the summation of degrees and the number of vertices.
 
+Planar graph - a graph without intersecting edges.
+
+Euler:
+-Circuit: A closed path where all the edges in a graph are crossed exactly once.
+-Path: A general path where all the edges are crossed exactly once without really having to go back to the starting point
+
+Hamilton:
+-Circuit: A closed path where all the vertices in a graph are crossed exactly once.
+-Path: A general path where all the vertices are crossed exactly once without really having to go back to the starting point
+
+When a graph has a Hamilton circuit or path primarily, it is "Hamiltonian". It's Euler counterpart is "Eulerian".
+
+Incidence Matrix: Matrix that represents how many vertices there are and how many connecting edges each has.
+
+Adjacency Matrix: Matrix that represents which vertices are connected.
+
+Isomorphic Graphs: Graphs can be twisted and bent to look like a totally different graph.
+
+Homeomorphic Graphs: If a graph has many unnecessary vertices and edges, we can remove those to come up with a simpler graph.
+
+DISMATH CLASSES Week 9:
+
+Graph Coloring: The vertices can be colored to represent how the vertices are connected with each other.
+
+Tree: A graph that starts from a single isolated vertex and extends downward to child-branches and further descendant branches.
