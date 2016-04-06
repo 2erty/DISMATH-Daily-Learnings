@@ -1,4 +1,4 @@
-# DISMATH-Daily-Learnings
+# DISMATH-Weekly-Learnings
 What I Learned Last Class
 
 DISMATH CLASSES Week 1
