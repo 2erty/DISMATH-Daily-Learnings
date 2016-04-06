@@ -1,7 +1,7 @@
 # DISMATH-Weekly-Learnings
 What I Learned Last Class
 
-DISMATH CLASSES Week 1
+# DISMATH-CLASSES-Week-1
 
 We were formally introduced to the world of Discrete Mathematics. The first part would be dealing with proof, specifically mathematical proof.
 
@@ -25,7 +25,7 @@ There are always two sets of variables (let them be x and y) in a statement or a
     If y if and only if x (biconditional), if both are true or false: statement is true.
 
 
-DISMATH CLASSES Week 2
+# DISMATH-CLASSES-Week-2
 
 Let variables be m, n & o.
 
@@ -92,7 +92,7 @@ Let variables be a, b, & c.
 The eight above are will all make tautologies - completely valid arguments. Just put clauses or mathematicals statements in place of the variables, and you can make any valid argument.
 
 
-DISMATH CLASSES Week 3
+# DISMATH-CLASSES-Week-3
 
 Proof:
 There are 5 main methods that we can use to do mathematical proof.
@@ -113,7 +113,7 @@ Trivial Proof
 Method: Very related to vacuous proof, we just need to proove q to be true, since as long as q is true, the statement is true.
 
 
-DISMATH CLASSES Week 4
+# DISMATH-CLASSES-Week-4
 
 Proof by Equivalence
 Method: If the statement is biconditional, we proove using definitions of p and q that p implying q and q implying p are both true. We can use any method previously learned to proove the two conditional statements separately.
@@ -121,7 +121,7 @@ Method: If the statement is biconditional, we proove using definitions of p and 
 Mathematical Induction (proof)
 Method: Usually, this method deals with series (arithmetic and geometric). It is prooving that a series is equivalent to a certain given function. (Example: 1, 2, 3, 4,...,n = sqrt(n)+2) Ideally, the method of proof used is direct proof.
 
-DISMATH CLASSES Week 5
+# DISMATH-CLASSES-Week-5
 Recursive Algorithms
 Method: When given a set of values - Two steps:
         1) A value will be specified as 0;
@@ -157,7 +157,7 @@ One-to-One Correspondence = Combination of One-to-One concept and Onto concept;
 
 Discrete Function Example: Greatest integer; Least integer function
 
-DISMATH CLASSES Week 6:
+# DISMATH-CLASSES-Week-6
 Algorithms:
 
 Steps on making any Algorithm:
@@ -168,7 +168,7 @@ Basic Examples of Algorithms:
 Search (Binary & linear);
 -Binary search is faster than linear. Linear goes through the list one by one. Binary searches the list by halfing.
 
-DISMATH CLASSES Week 7:
+# DISMATH-CLASSES-Week-7
 More Algorithm Examples
 Sorting (Insertion & Bubble);
 Bubble Sort Pseudocode:
@@ -199,7 +199,7 @@ Growth functions:
 3. Big-Theta function;
     When x is THETAy, y is both upper the boundary and lower boundary;
 
-DISMATH CLASSES Week 8:
+# DISMATH-CLASSES-Week-8
 Graph Theory:
 
 A graph is a finite set of vertices with lines called edges connecting edges in several many possible ways.
@@ -227,7 +227,7 @@ Isomorphic Graphs: Graphs can be twisted and bent to look like a totally differe
 
 Homeomorphic Graphs: If a graph has many unnecessary vertices and edges, we can remove those to come up with a simpler graph.
 
-DISMATH CLASSES Week 9:
+# DISMATH-CLASSES-Week-9
 
 Graph Coloring: The vertices can be colored to represent how the vertices are connected with each other.
 
