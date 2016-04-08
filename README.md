@@ -232,3 +232,42 @@ Homeomorphic Graphs: If a graph has many unnecessary vertices and edges, we can 
 Graph Coloring: The vertices can be colored to represent how the vertices are connected with each other.
 
 Tree: A graph that starts from a single isolated vertex and extends downward to child-branches and further descendant branches.
+
+# Reading-Assignments
+
+Tree Traversal:
+Labeling the vertices of a tree forming a set that represents the vertices.
+Starts from root then moves on either numerically or alphabetically as it moves down the descendants.
+
+3 Methods:
+Parents first and then children;
+Parents in the middle of children:
+Parents after children
+
+Spanning Trees:
+Formed from simple circuit
+
+3 Methods:
+Removing connections that make circuit;
+Starting from roots and adding vertices according to how they are connected in the circuit;
+Starting from any random vertex and progressively adding vertices according to circuit connections.
+
+Relations:
+Elements in one set arbitrarily corresponding to elements in another set;
+Functions are relations where elements in one set have unique connections with the second;
+
+3 Properties:
+*Let elements be a, b, and c
+
+Reflexive: (a,a) (b,b) (c,c);
+Symmetrical:(a,b) (b,a)...;
+Transtive: (a,b) (b,c) a,c);
+
+Representing Relations:
+3 ways:
+Set builder: {x|condition};
+Arrow Diagram: Set A elements have arrows pointing to elements of other side.
+Roster: R={(a,b), (c,b)...}
+
+An equivalence relation is reflexive, transitive and symmetrical
+
